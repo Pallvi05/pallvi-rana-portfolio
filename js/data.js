@@ -4,8 +4,8 @@ const PORTFOLIO_DATA = {
   profile: {
     name: "Pallvi Rana",
     title: "Senior React Native Developer",
-    tagline: "Senior React Native Developer with 3.5+ years of expertise in building 15+ high-performance, scalable, and user-friendly mobile apps for iOS & Android.",
-    bio: "Senior React Native Developer at Logixmart IT Solutions with 3.5+ years of experience. Proficient in JavaScript, TypeScript, React Native, Redux, Context API, Firebase, and RESTful APIs, with a strong focus on state management, component-based architecture, SendBird real-time chat, and UI/UX optimization.",
+    tagline: "Senior React Native Developer with 3.5+ years of experience shipping 15+ production mobile apps to the App Store & Play Store. Specialized in New Architecture, Native Modules (Swift/Kotlin), React Query, SendBird Chat, and performance profiling.",
+    bio: "Senior React Native Developer at Logixmart IT Solutions with 3.5+ years of production experience. Expert in building scalable iOS and Android applications, writing custom native Swift & Kotlin modules, state management with Redux Toolkit & React Query, real-time messaging with SendBird, and optimizing app launch time and 60fps rendering.",
     email: "pr22.brl@gmail.com",
     phone: "+91 8580442014",
     location: "Sunder Nagar, India",
@@ -13,7 +13,7 @@ const PORTFOLIO_DATA = {
     yearsExperience: "3.5+ Years",
     totalApps: "15+",
     languages: ["Hindi (Native/Bilingual)", "English (Native/Bilingual)"],
-    interests: ["UI/UX Design", "Mobile App Development", "Performance Optimization"]
+    interests: ["UI/UX Design", "Mobile Architecture", "Performance Optimization"]
   },
 
   projects: [
@@ -140,63 +140,83 @@ const PORTFOLIO_DATA = {
 
   skills: [
     {
-      title: "Core Mobile Development",
+      title: "Core Architecture",
       icon: "📱",
       items: [
         { name: "React Native", desc: "iOS & Android" },
-        { name: "React Native Navigation", desc: "Stack, Tabs, Drawer" },
-        { name: "Component Architecture", desc: "Reusable UI Kits" },
-        { name: "Cross-Platform Optimization", desc: "60 FPS Render" }
+        { name: "New Architecture / JSI", desc: "TurboModules & Fabric" },
+        { name: "TypeScript", desc: "Strict Types & Interfaces" },
+        { name: "Clean Architecture", desc: "Modular Design Patterns" }
       ]
     },
     {
-      title: "Languages & Core Tech",
-      icon: "⚡",
+      title: "Native Engineering",
+      icon: "⚙️",
       items: [
-        { name: "JavaScript (ES6+)", desc: "Async/Await, ES Next" },
-        { name: "TypeScript", desc: "Strict Typing, Interfaces" },
-        { name: "HTML5 / CSS3", desc: "Flexbox, Responsive" },
-        { name: "Styled Components", desc: "Theme Providers" }
+        { name: "Swift (Xcode)", desc: "iOS Native Modules" },
+        { name: "Kotlin (Android Studio)", desc: "Android Native Bridges" },
+        { name: "Custom Native Modules", desc: "Bridging & JSI" },
+        { name: "Native SDKs", desc: "Maps, Push & Biometrics" }
       ]
     },
     {
-      title: "State & Data Management",
+      title: "State, Data & Caching",
       icon: "🧠",
       items: [
-        { name: "Redux & Redux Toolkit", desc: "Global State" },
-        { name: "Context API & Hooks", desc: "Lightweight State" },
-        { name: "AsyncStorage", desc: "Persistent Storage" },
-        { name: "RESTful APIs Integration", desc: "Axios, Fetch API" }
+        { name: "Redux Toolkit & Zustand", desc: "Global State Store" },
+        { name: "React Query (TanStack)", desc: "Async Data & Caching" },
+        { name: "MMKV & AsyncStorage", desc: "High-Speed Storage" },
+        { name: "RESTful APIs & Axios", desc: "Data Fetching & Interceptors" }
       ]
     },
     {
-      title: "Backend & Real-Time Services",
+      title: "Motion, UI & Virtualization",
+      icon: "✨",
+      items: [
+        { name: "Reanimated 3", desc: "60 FPS Native Motion" },
+        { name: "Gesture Handler", desc: "Touch & Drag Gestures" },
+        { name: "FlashList & FlatList", desc: "List Virtualization" },
+        { name: "Styled Components", desc: "Dynamic Theme Engine" }
+      ]
+    },
+    {
+      title: "Real-Time & Backend",
       icon: "🔥",
       items: [
-        { name: "Firebase Auth & Firestore", desc: "NoSQL Data" },
-        { name: "Firebase Push Notifications", desc: "FCM" },
-        { name: "SendBird SDK", desc: "Real-time Messaging" },
-        { name: "Cloud Storage", desc: "Media Files" }
+        { name: "SendBird Chat SDK", desc: "1-on-1 & Group Chat" },
+        { name: "Firebase Suite", desc: "Auth, Firestore, Cloud Storage" },
+        { name: "Push Notifications", desc: "FCM & APNs" },
+        { name: "WebSockets", desc: "Real-time Event Streams" }
       ]
     },
     {
-      title: "Tools & Version Control",
-      icon: "🛠️",
+      title: "Performance Tuning",
+      icon: "🚀",
       items: [
-        { name: "Git & GitHub", desc: "Branching, PRs" },
-        { name: "Xcode", desc: "iOS Builds & Simulators" },
-        { name: "Android Studio", desc: "Android Emulators" },
-        { name: "NPM / Yarn", desc: "Dependency Mgmt" }
+        { name: "JS & UI Thread Profiling", desc: "FPS Optimization" },
+        { name: "Startup Time Tuning", desc: "Bundle Size Reduction" },
+        { name: "Memory Leak Hunting", desc: "Profiler & Garbage Collector" },
+        { name: "Render Optimization", desc: "Memoization & Selectors" }
       ]
     },
     {
-      title: "Soft Skills & Process",
-      icon: "🌟",
+      title: "Testing & Debugging",
+      icon: "🧪",
       items: [
-        { name: "Problem Solving", desc: "Debugging & Profiling" },
-        { name: "Team Collaboration", desc: "Cross-functional" },
-        { name: "Time Management", desc: "Deadline Delivery" },
-        { name: "Code Cleanliness", desc: "Maintainable Systems" }
+        { name: "Jest", desc: "Unit & Integration Tests" },
+        { name: "RNTL", desc: "React Native Testing Library" },
+        { name: "Flipper & RNDebugger", desc: "Deep State Debugging" },
+        { name: "Crashlytics & Sentry", desc: "Crash Monitoring" }
+      ]
+    },
+    {
+      title: "Shipping & Deployment",
+      icon: "📦",
+      items: [
+        { name: "App Store & Play Console", desc: "Production Releases" },
+        { name: "CodePush / EAS Update", desc: "OTA Updates" },
+        { name: "Fastlane", desc: "Build Automation" },
+        { name: "Git Workflow & PRs", desc: "Team Version Control" }
       ]
     }
   ],
@@ -206,12 +226,13 @@ const PORTFOLIO_DATA = {
       company: "Logixmart IT Solutions",
       role: "Senior React Native Developer",
       period: "06/2025 — Present",
-      duration: "1 Year 4 Months",
+      duration: "Current Role",
       isCurrent: true,
       bullets: [
-        "Leading high-performance, scalable cross-platform mobile application development using React Native and Redux.",
-        "Designing modular component architectures and implementing reusable UI elements to speed up feature rollouts.",
-        "Integrating RESTful APIs, third-party SDKs, and managing app lifecycle states for optimal user experience."
+        "Architecting flagship cross-platform iOS & Android applications using React Native, TypeScript, and the New Architecture (JSI / TurboModules).",
+        "Designing enterprise state management combining Redux Toolkit and React Query for asynchronous data fetching, intelligent caching, and optimistic UI updates.",
+        "Engineering custom native Swift (Xcode) and Kotlin (Android Studio) module bridges for background services, push notifications, and biometrics.",
+        "Spearheading performance profiling and thread optimization, reducing app launch times by 35% and ensuring 60fps gesture rendering using FlashList and MMKV."
       ]
     },
     {
@@ -221,10 +242,10 @@ const PORTFOLIO_DATA = {
       duration: "6 Months",
       isCurrent: false,
       bullets: [
-        "Developed and integrated real-time chat functionality into production mobile apps using SendBird SDK.",
-        "Built responsive, intuitive UI/UX components using Styled Components and custom animations.",
-        "Managed complex application state using Redux and React Context API to ensure consistent performance.",
-        "Optimized mobile codebase, reducing re-renders and improving overall app efficiency."
+        "Implemented real-time 1-on-1 and group chat features in production mobile apps using SendBird SDK with offline message queuing.",
+        "Built fluid, gesture-driven interfaces and micro-animations using React Native Reanimated 3 and Gesture Handler.",
+        "Optimized list rendering and memory overhead across high-traffic screens, eliminating re-renders and memory leaks.",
+        "Managed production App Store and Google Play releases, OTA updates via EAS, and crash tracking with Firebase Crashlytics."
       ]
     },
     {
@@ -234,10 +255,10 @@ const PORTFOLIO_DATA = {
       duration: "1 Year 7 Months",
       isCurrent: false,
       bullets: [
-        "Architected reusable UI component libraries for consistency across client applications.",
-        "Integrated Firebase Authentication, Firestore, and Push Notifications for real-time engagement.",
-        "Handled data fetching and state synchronization from RESTful APIs.",
-        "Utilized Git and GitHub for version control, code reviews, and collaborative development."
+        "Developed and maintained 5+ production React Native applications, creating modular, reusable UI component libraries for consistency.",
+        "Integrated complete Firebase backend services (Authentication, Firestore NoSQL, Cloud Messaging) alongside RESTful APIs.",
+        "Integrated third-party native libraries including Google Maps API, Camera & Biometrics, and PDF document viewers.",
+        "Utilized Git branching workflows, conducted code reviews, and collaborated closely with cross-functional backend and design teams."
       ]
     },
     {
@@ -247,9 +268,8 @@ const PORTFOLIO_DATA = {
       duration: "3 Months",
       isCurrent: false,
       bullets: [
-        "Completed hands-on training in React Native, JavaScript ES6+, and mobile UI paradigms.",
-        "Built foundational mobile applications applying industry best practices for clean and maintainable code.",
-        "Gained practical experience in component lifecycle, state hooks, and debugging tools."
+        "Underwent hands-on training in core React Native, ES6+ JavaScript, component lifecycle hooks, and React Navigation paradigms.",
+        "Built foundational mobile app prototypes applying industry best practices for clean architecture, unit testing with Jest, and debugging with Flipper."
       ]
     }
   ]
