@@ -20,119 +20,112 @@ const PORTFOLIO_DATA = {
     {
       id: "rooflink",
       title: "RoofLink",
-      category: "Construction CRM & Estimator",
+      category: "Construction CRM",
       iconImg: "assets/apps/rooflink.jpg",
       color: "#f59e0b",
-      description: "Mobile-first CRM and estimation platform built specifically for roofing professionals to handle lead management, smart scheduling, project tracking, inspection reports, and job-site photo documentation.",
+      description: "Mobile CRM and estimation platform for roofing contractors to manage project leads, field photo annotations, and instant quote calculations.",
       features: [
-        "Lead tracking pipeline & automated quote generation",
-        "Job-site photo management with annotation tools",
-        "Real-time client messaging & project status updates",
-        "Offline-first data caching for remote job-site inspections"
+        "Offline-first field inspection caching",
+        "Real-time lead pipeline & quote engine",
+        "Photo annotation & report export"
       ],
-      tech: ["React Native", "Redux Toolkit", "RESTful APIs", "Camera Module", "AsyncStorage"],
+      tech: ["React Native", "Redux Toolkit", "RESTful APIs", "AsyncStorage"],
       playStore: "https://play.google.com/store/apps/details?id=com.rooflink&hl=en",
       appStore: null
     },
     {
       id: "reekolect",
       title: "Reekolect",
-      category: "Social & AI Memory Vault",
+      category: "Social & AI Vault",
       iconImg: "assets/apps/reekolect.jpg",
       color: "#ec4899",
-      description: "AI-powered social media and memory preservation platform that allows families to securely upload, restore, and organize photos & videos into digital family trees and shared memory vaults.",
+      description: "AI-powered family memory preservation app enabling users to digitize albums, restore photos, and map interactive family trees.",
       features: [
-        "Interactive digital family tree with AI connection suggestions",
-        "High-resolution photo & video memory feed with privacy controls",
-        "AI-based photo restoration and detail enhancement",
-        "Secure 1-on-1 private messaging and family updates"
+        "Interactive digital family tree mapping",
+        "AI photo restoration & detail enhancement",
+        "Private media feed & 1-on-1 messaging"
       ],
-      tech: ["React Native", "Firebase", "Redux", "React Native Navigation", "Image Caching"],
+      tech: ["React Native", "Firebase", "Redux", "React Navigation"],
       playStore: "https://play.google.com/store/apps/details?id=com.reekolect&hl=en",
       appStore: "https://apps.apple.com/in/app/reekolect/id6474777738"
     },
     {
       id: "myborderpass",
       title: "My Border Pass",
-      category: "Travel & Digital Verification",
+      category: "Travel & Security",
       iconImg: "assets/apps/myborderpass.jpg",
       color: "#3b82f6",
-      description: "Official digital travel pass application developed by TRIS Registration Centre allowing users to securely link passport credentials, generate dynamic QR codes, and expedite border clearance.",
+      description: "Digital travel identity platform enabling travellers to store encrypted credentials and generate dynamic QR codes for border clearance.",
       features: [
-        "Secure encrypted passport & travel document storage",
-        "Dynamic QR code generation for rapid border entry validation",
-        "Real-time travel advisories & pass status notifications",
-        "Multi-tier biometric identity validation flow"
+        "Encrypted passport & travel document vault",
+        "Dynamic QR code border validation engine",
+        "Biometric authentication & instant advisories"
       ],
-      tech: ["React Native", "TypeScript", "Context API", "Biometrics", "REST APIs"],
+      tech: ["React Native", "TypeScript", "Biometrics", "REST APIs"],
       playStore: "https://play.google.com/store/apps/details?id=com.application.Myborderpass&hl=en",
       appStore: "https://apps.apple.com/in/app/myborderpass/id6503904291"
     },
     {
       id: "myrc",
       title: "My Registered Agent (MyRC)",
-      category: "Corporate Governance & Compliance",
+      category: "Corporate Governance",
       iconImg: "assets/apps/myrc.jpg",
       color: "#10b981",
-      description: "Corporate compliance monitoring application designed for business owners and cardholders to receive legal notifications, track official state filing deadlines, and manage corporate documents.",
+      description: "Enterprise compliance suite allowing business owners to monitor registered agent notices, track state filing deadlines, and access legal filings.",
       features: [
-        "Push notification alerts for time-sensitive legal notices",
-        "Embedded secure document viewer for PDF filings & receipts",
-        "Multi-entity corporate profile switcher",
-        "Automated backend sync with state registry databases"
+        "Real-time legal notification engine (FCM)",
+        "Encrypted corporate document & PDF viewer",
+        "Multi-entity compliance profile switcher"
       ],
-      tech: ["React Native", "Redux", "Firebase Messaging", "RESTful APIs", "PDF Viewer"],
+      tech: ["React Native", "Redux", "FCM", "PDF Viewer"],
       playStore: "https://play.google.com/store/apps/details?id=com.tris.myrc.MyRegistere",
       appStore: null
     },
     {
       id: "missio",
       title: "Missio",
-      category: "Field Productivity & Collaboration",
+      category: "Field Productivity",
       iconImg: "assets/apps/missio.jpg",
       color: "#8b5cf6",
-      description: "Dedicated communication and activity-tracking platform designed for mission teams, field personnel, and supporters to log daily impact, share progress updates, and manage team workflows.",
+      description: "Field operations platform engineered for mission teams to log daily impact, track milestones, and broadcast updates to supporters.",
       features: [
-        "Real-time activity feed with rich media logging",
-        "Supporter update generation and broadcast hooks",
-        "Team task assignment and milestone progress trackers",
-        "Offline state management for low-connectivity field areas"
+        "Real-time impact feed & media broadcaster",
+        "Supporter update hooks",
+        "Offline task queuing for low-connectivity sites"
       ],
-      tech: ["React Native", "TypeScript", "Redux", "Styled Components", "REST APIs"],
+      tech: ["React Native", "TypeScript", "Redux", "REST APIs"],
       playStore: "https://play.google.com/store/apps/details?id=app.missio&hl=en",
       appStore: "https://apps.apple.com/in/app/missio-live-on-mission/id6444812053"
     },
     {
       id: "claudia",
       title: "Claudia Dean World",
-      category: "Health & Ballet Training",
+      category: "Health & Ballet",
       iconImg: "assets/apps/claudia.jpg",
       color: "#f43f5e",
-      description: "Premier ballet training mobile application by Claudia Dean featuring over 400+ step-by-step video exercises, customized dance programs, streak tracking, and specialized technique challenges.",
+      description: "Ballet training suite featuring 400+ video tutorials, personalized daily schedules, streak tracking, and community challenges.",
       features: [
-        "Custom video player with speed adjustments & bookmarking",
-        "400+ targeted exercises for turns, jumps, flexibility & feet",
-        "Personalized daily practice schedules and streak counters",
-        "In-app subscriptions & exclusive dancer community content"
+        "Custom video player with speed control",
+        "400+ targeted technique & jump exercises",
+        "In-app subscriptions & daily streak engine"
       ],
-      tech: ["React Native", "Redux Toolkit", "Video Player", "In-App Purchases", "REST APIs"],
+      tech: ["React Native", "Redux Toolkit", "Video Player", "IAP"],
       playStore: "https://play.google.com/store/apps/details?id=com.claudiadeanworld&hl=en_IN",
       appStore: "https://apps.apple.com/in/app/claudia-dean-world/id6443443761"
     },
     {
       id: "skoolfame",
       title: "Skoolfame",
-      category: "School Community & Social",
+      category: "Education & Social",
       iconImg: "assets/apps/skoolfame.jpg",
       color: "#06b6d4",
-      description: "Vibrant social networking platform for high school students featuring event discovery, self-nominations, media sharing, and real-time chat powered by SendBird for student community building.",
+      description: "High school social engagement network featuring event discovery, student self-nominations, media feeds, and SendBird messaging.",
       features: [
-        "SendBird integrated real-time 1-on-1 & group chat messaging",
-        "High school event registration and self-nomination modules",
-        "Media gallery feed for photo/video sharing with likes & comments",
-        "Custom tab bar navigation with high-efficiency list rendering"
+        "SendBird real-time 1-on-1 & group messaging",
+        "Event registration & nomination voting",
+        "High-efficiency virtualized media feed"
       ],
-      tech: ["React Native", "SendBird Chat", "Firebase", "Redux", "React Native Navigation"],
+      tech: ["React Native", "SendBird Chat", "Firebase", "Redux"],
       playStore: "https://play.google.com/store/apps/details?id=com.skoolfame",
       appStore: "https://apps.apple.com/in/app/skoolfame-app/id1671482360"
     }
