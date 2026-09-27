@@ -1,11 +1,11 @@
-/* Portfolio Data for Pallvi Rana - React Native Developer */
+/* Portfolio Data for Pallvi Rana - Senior React Native Developer */
 
 const PORTFOLIO_DATA = {
   profile: {
     name: "Pallvi Rana",
-    title: "React Native Developer",
-    tagline: "Experienced React Native Developer with 3.5+ years of expertise in building 15+ high-performance, scalable, and user-friendly mobile apps for iOS & Android.",
-    bio: "Proficient in JavaScript, TypeScript, React Native, Redux, Context API, Firebase, and RESTful APIs, with a strong focus on state management, component-based architecture, SendBird real-time chat, and UI/UX optimization. Skilled in writing clean, maintainable code and improving app efficiency across 15+ shipped applications.",
+    title: "Senior React Native Developer",
+    tagline: "Senior React Native Developer with 3.5+ years of expertise in building 15+ high-performance, scalable, and user-friendly mobile apps for iOS & Android.",
+    bio: "Senior React Native Developer at Logixmart IT Solutions with 3.5+ years of experience. Proficient in JavaScript, TypeScript, React Native, Redux, Context API, Firebase, and RESTful APIs, with a strong focus on state management, component-based architecture, SendBird real-time chat, and UI/UX optimization.",
     email: "pr22.brl@gmail.com",
     phone: "+91 8580442014",
     location: "Sunder Nagar, India",
@@ -116,7 +116,7 @@ const PORTFOLIO_DATA = {
         "In-app subscriptions & exclusive dancer community content"
       ],
       tech: ["React Native", "Redux Toolkit", "Video Player", "In-App Purchases", "REST APIs"],
-      playStore: "https://play.google.com/store/search?q=claudia+dean+world&c=apps&hl=en_IN",
+      playStore: "https://play.google.com/store/apps/details?id=com.claudiadeanworld&hl=en_IN",
       appStore: "https://apps.apple.com/in/app/claudia-dean-world/id6443443761"
     },
     {
@@ -204,12 +204,12 @@ const PORTFOLIO_DATA = {
   experience: [
     {
       company: "Logixmart IT Solutions",
-      role: "React Native Developer",
+      role: "Senior React Native Developer",
       period: "06/2025 — Present",
       duration: "1 Year 4 Months",
       isCurrent: true,
       bullets: [
-        "Engineering high-performance, scalable cross-platform mobile applications using React Native and Redux.",
+        "Leading high-performance, scalable cross-platform mobile application development using React Native and Redux.",
         "Designing modular component architectures and implementing reusable UI elements to speed up feature rollouts.",
         "Integrating RESTful APIs, third-party SDKs, and managing app lifecycle states for optimal user experience."
       ]
