@@ -27,8 +27,6 @@ function initTheme() {
 }
 
 /* Hero Phone Simulator Renderer */
-let currentPhoneAppIndex = 0;
-
 function renderPhoneSimulator() {
   const phoneScreen = document.getElementById('phoneScreen');
   const phoneTabs = document.getElementById('phoneTabs');
@@ -36,10 +34,11 @@ function renderPhoneSimulator() {
 
   const featuredApps = PORTFOLIO_DATA.projects;
 
-  // Render Tabs
+  // Render Tabs with real app icon images
   phoneTabs.innerHTML = featuredApps.map((app, index) => `
     <button class="phone-tab-btn ${index === 0 ? 'active' : ''}" data-index="${index}">
-      ${app.icon} ${app.title.split(' ')[0]}
+      <img src="${app.iconImg}" alt="${app.title}" class="tab-img-icon" onerror="this.src='https://via.placeholder.com/20'">
+      <span>${app.title.split(' ')[0]}</span>
     </button>
   `).join('');
 
@@ -49,7 +48,7 @@ function renderPhoneSimulator() {
   // Tab click listeners
   const tabBtns = phoneTabs.querySelectorAll('.phone-tab-btn');
   tabBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
+    btn.addEventListener('click', () => {
       const idx = parseInt(btn.getAttribute('data-index'), 10);
       tabBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
@@ -66,9 +65,7 @@ function updatePhoneScreen(index) {
   phoneScreen.innerHTML = `
     <div class="screen-app-card" style="border-left: 4px solid ${app.color};">
       <div class="screen-app-header">
-        <div class="screen-app-icon" style="background: ${app.color}22; color: ${app.color};">
-          ${app.icon}
-        </div>
+        <img src="${app.iconImg}" alt="${app.title}" class="real-app-icon" onerror="this.src='https://via.placeholder.com/44'">
         <div class="screen-app-title">
           <h4>${app.title}</h4>
           <span>${app.category}</span>
@@ -96,7 +93,7 @@ function renderAppShelf() {
 
   shelfContainer.innerHTML = PORTFOLIO_DATA.projects.map(app => `
     <a href="${app.playStore || app.appStore || '#work'}" target="_blank" rel="noopener" class="shelf-item" title="${app.title} - ${app.category}">
-      <span class="shelf-icon" style="background: ${app.color}15;">${app.icon}</span>
+      <img src="${app.iconImg}" alt="${app.title}" class="shelf-img-icon" onerror="this.src='https://via.placeholder.com/34'">
       <span class="shelf-name">${app.title}</span>
     </a>
   `).join('');
@@ -111,9 +108,7 @@ function renderProjects() {
     <div class="project-card">
       <div>
         <div class="project-top">
-          <div class="project-icon-box" style="background: ${app.color}20; border: 1px solid ${app.color}40;">
-            ${app.icon}
-          </div>
+          <img src="${app.iconImg}" alt="${app.title}" class="project-real-icon" onerror="this.src='https://via.placeholder.com/56'">
           <span class="project-category">${app.category}</span>
         </div>
 
@@ -211,7 +206,7 @@ function initISTClock() {
   setInterval(updateClock, 1000);
 }
 
-/* Copy Email & Phone Action */
+/* Copy Email Action */
 function initCopyActions() {
   const copyBtn = document.getElementById('copyEmailBtn');
   if (copyBtn) {
