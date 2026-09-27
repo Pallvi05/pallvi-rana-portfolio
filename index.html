@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallvi Rana — React Native Developer</title>
+    <meta name="description" content="Pallvi Rana is a React Native Developer with 2+ years of experience building high-performance, cross-platform mobile apps for iOS and Android.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Top Glow Effect Background -->
+    <div class="glow-bg"></div>
+
+    <div class="wrap">
+        <!-- Navigation Header -->
+        <header class="top-nav">
+            <a href="#" class="brand-logo">
+                <span class="logo-avatar">PR</span>
+                <span class="logo-text">Pallvi Rana</span>
+            </a>
+            
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span class="status-text">Available for Mobile Projects</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#work">Projects</a>
+                <a href="#skills">Tech Stack</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <span class="sparkle">✨</span> React Native & Mobile App Specialist
+                </div>
+                <h1 class="hero-title">
+                    I build high-performance mobile apps that feel <em>truly native.</em>
+                </h1>
+                
+                <p class="hero-bio">
+                    React Native Developer at <strong>Logixmart IT Solutions</strong> with 2+ years of experience shipping scalable iOS and Android applications. Expert in <strong>State Management (Redux, Context API)</strong>, <strong>SendBird Real-Time Chat</strong>, <strong>Firebase</strong>, and <strong>RESTful APIs</strong>.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="mailto:pr22.brl@gmail.com" class="btn btn-primary">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        Get In Touch
+                    </a>
+                    <a href="tel:+918580442014" class="btn btn-secondary">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +91 8580442014
+                    </a>
+                    <a href="https://wa.me/918580442014" target="_blank" rel="noopener" class="btn btn-secondary">
+                        WhatsApp ↗
+                    </a>
+                </div>
+
+                <div class="hero-metrics">
+                    <div class="metric-card">
+                        <span class="metric-num">2+</span>
+                        <span class="metric-label">Years Experience</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-num">7+</span>
+                        <span class="metric-label">Production Apps</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-num">60 fps</span>
+                        <span class="metric-label">UI Smoothness</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating Phone Simulator -->
+            <div class="hero-phone-wrap">
+                <div class="phone-mockup">
+                    <div class="phone-notch">
+                        <div class="camera"></div>
+                        <div class="speaker"></div>
+                    </div>
+                    
+                    <div class="phone-screen" id="phoneScreen">
+                        <!-- Rendered dynamically by app.js -->
+                    </div>
+
+                    <div class="phone-controls">
+                        <span class="control-label">Interactive Preview:</span>
+                        <div class="phone-tabs" id="phoneTabs">
+                            <!-- Tab buttons generated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Icons Bar -->
+        <section class="shelf-section">
+            <p class="shelf-title">Featured Production Apps Live on Play Store & App Store ↓</p>
+            <div class="app-shelf-grid" id="appShelf">
+                <!-- App items rendered dynamically -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Selected Works Section -->
+    <section class="sec" id="work">
+        <div class="wrap">
+            <div class="sec-head">
+                <div>
+                    <span class="sec-kicker">Portfolio & Deliverables</span>
+                    <h2>Featured Mobile Apps</h2>
+                </div>
+                <p>Selected cross-platform iOS & Android mobile applications engineered with React Native, Redux, custom hooks, and high-performance UI components.</p>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects injected dynamically from data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack & Skills Matrix Section -->
+    <section class="sec" id="skills">
+        <div class="wrap">
+            <div class="sec-head">
+                <div>
+                    <span class="sec-kicker">Technical Capabilities</span>
+                    <h2>What I Work With</h2>
+                </div>
+                <p>Specialized in modern mobile engineering practices, optimized rendering, modular state architecture, and reliable native module integration.</p>
+            </div>
+
+            <div class="stack-grid" id="skillsGrid">
+                <!-- Skills injected dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Timeline Section -->
+    <section class="sec" id="experience">
+        <div class="wrap">
+            <div class="sec-head">
+                <div>
+                    <span class="sec-kicker">Career History</span>
+                    <h2>Work Experience</h2>
+                </div>
+                <p>From hands-on trainee to lead feature developer, shipping robust mobile features across software houses and product teams.</p>
+            </div>
+
+            <ol class="timeline" id="experienceTimeline">
+                <!-- Experience items injected dynamically -->
+            </ol>
+        </div>
+    </section>
+
+    <!-- Education & Credentials Section -->
+    <section class="sec" id="education">
+        <div class="wrap">
+            <div class="sec-head">
+                <div>
+                    <span class="sec-kicker">Background & Learning</span>
+                    <h2>Education & Certifications</h2>
+                </div>
+                <p>Formal background in Computer Science paired with structured React Native & Java developer certifications.</p>
+            </div>
+
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <div class="edu-icon">🎓</div>
+                    <div class="edu-info">
+                        <h3>Diploma in Computer Science</h3>
+                        <p class="edu-place">Government Polytechnic SunderNagar</p>
+                        <span class="edu-period">07/2018 — 08/2021</span>
+                    </div>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-icon">📜</div>
+                    <div class="edu-info">
+                        <h3>Certificate in Application Developer (React Native)</h3>
+                        <p class="edu-place">Works Delight Trainee Program</p>
+                        <span class="edu-period">03/2023 — 06/2023</span>
+                    </div>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-icon">☕</div>
+                    <div class="edu-info">
+                        <h3>Certificate in Java Development</h3>
+                        <p class="edu-place">Professional Training Program</p>
+                        <span class="edu-period">10/2022 — 12/2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & IST Clock Section -->
+    <section class="sec contact-sec" id="contact">
+        <div class="wrap">
+            <div class="contact-box">
+                <p class="contact-kicker">Have a mobile app project or hiring opportunity?</p>
+                <h2 class="contact-title">Let's build something <em>extraordinary together.</em></h2>
+                
+                <div class="contact-methods">
+                    <a href="mailto:pr22.brl@gmail.com" class="mail-link" id="emailLink">pr22.brl@gmail.com</a>
+                    <button class="copy-btn" id="copyEmailBtn">Copy Email</button>
+                </div>
+
+                <div class="contact-meta">
+                    <div class="meta-item">
+                        <span class="meta-icon">📞</span>
+                        <span>Phone / WhatsApp: <a href="tel:+918580442014" class="u">+91 8580442014</a></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">📍</span>
+                        <span>Location: <strong>Sunder Nagar, India</strong></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">⏰</span>
+                        <span id="istClock">India Time (IST): Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="wrap footer-wrap">
+            <span>© <span id="currentYear">2026</span> Pallvi Rana. Built with React Native Passion.</span>
+            <a href="#" class="top-link">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
