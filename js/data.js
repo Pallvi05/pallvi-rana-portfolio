@@ -32,7 +32,7 @@ const PORTFOLIO_DATA = {
       ],
       tech: ["React Native", "Redux Toolkit", "RESTful APIs", "Camera Module", "AsyncStorage"],
       playStore: "https://play.google.com/store/apps/details?id=com.rooflink&hl=en",
-      appStore: "https://apps.apple.com/app/rooflink/id6447833054"
+      appStore: null
     },
     {
       id: "reekolect",
@@ -100,7 +100,7 @@ const PORTFOLIO_DATA = {
       ],
       tech: ["React Native", "TypeScript", "Redux", "Styled Components", "REST APIs"],
       playStore: "https://play.google.com/store/apps/details?id=app.missio&hl=en",
-      appStore: null
+      appStore: "https://apps.apple.com/in/app/missio-live-on-mission/id6444812053"
     },
     {
       id: "claudia",
@@ -116,7 +116,7 @@ const PORTFOLIO_DATA = {
         "In-app subscriptions & exclusive dancer community content"
       ],
       tech: ["React Native", "Redux Toolkit", "Video Player", "In-App Purchases", "REST APIs"],
-      playStore: null,
+      playStore: "https://play.google.com/store/apps/details?id=com.appetiser.claudiadeanworld&hl=en_IN",
       appStore: "https://apps.apple.com/in/app/claudia-dean-world/id6443443761"
     },
     {
