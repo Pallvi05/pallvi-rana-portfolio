@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="reeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#reeGrad)"/>
+  <path d="M40 36l6-10h28l6 10h16a8 8 0 0 1 8 8v44a8 8 0 0 1-8 8H24a8 8 0 0 1-8-8V44a8 8 0 0 1 8-8h16z M60 48a18 18 0 1 0 0 36 18 18 0 0 0 0-36z M60 56a10 10 0 1 1 0 20 10 10 0 0 1 0-20z" fill="#FFFFFF"/>
+</svg>

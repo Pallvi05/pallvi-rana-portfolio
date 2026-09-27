@@ -4,13 +4,14 @@ const PORTFOLIO_DATA = {
   profile: {
     name: "Pallvi Rana",
     title: "React Native Developer",
-    tagline: "Experienced React Native Developer with 3.5+ years of expertise in building high-performance, scalable, and user-friendly mobile apps for iOS & Android.",
-    bio: "Proficient in JavaScript, TypeScript, React Native, Redux, Context API, Firebase, and RESTful APIs, with a strong focus on state management, component-based architecture, SendBird real-time chat, and UI/UX optimization. Skilled in writing clean, maintainable code and improving app efficiency.",
+    tagline: "Experienced React Native Developer with 3.5+ years of expertise in building 15+ high-performance, scalable, and user-friendly mobile apps for iOS & Android.",
+    bio: "Proficient in JavaScript, TypeScript, React Native, Redux, Context API, Firebase, and RESTful APIs, with a strong focus on state management, component-based architecture, SendBird real-time chat, and UI/UX optimization. Skilled in writing clean, maintainable code and improving app efficiency across 15+ shipped applications.",
     email: "pr22.brl@gmail.com",
     phone: "+91 8580442014",
     location: "Sunder Nagar, India",
     currentCompany: "Logixmart IT Solutions",
     yearsExperience: "3.5+ Years",
+    totalApps: "15+",
     languages: ["Hindi (Native/Bilingual)", "English (Native/Bilingual)"],
     interests: ["UI/UX Design", "Mobile App Development", "Performance Optimization"]
   },
@@ -20,7 +21,7 @@ const PORTFOLIO_DATA = {
       id: "rooflink",
       title: "RoofLink",
       category: "Construction & Business",
-      iconImg: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/84/02/ca8402c5-5a1e-b83b-9a91-44755e10ce09/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      iconImg: "assets/apps/rooflink.svg",
       color: "#f59e0b",
       description: "Roofing management & estimation mobile solution designed for contractors to streamline project quotes, inspection workflows, client communication, and site photos.",
       features: [
@@ -37,7 +38,7 @@ const PORTFOLIO_DATA = {
       id: "reekolect",
       title: "Reekolect",
       category: "Social & Memories",
-      iconImg: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/64/26/7464264d-7ec4-9477-fc4e-635a79eea935/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      iconImg: "assets/apps/reekolect.svg",
       color: "#ec4899",
       description: "A private memory vault app allowing families to securely store, organize, and share photos, build interactive family trees, and preserve cherished moments.",
       features: [
@@ -54,7 +55,7 @@ const PORTFOLIO_DATA = {
       id: "myborderpass",
       title: "My Border Pass",
       category: "Travel & Security",
-      iconImg: "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0a/6c/3e/0a6c3e62-c2b4-7832-7360-192a2a095c99/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      iconImg: "assets/apps/myborderpass.svg",
       color: "#3b82f6",
       description: "Digital travel verification and border entry pass management app providing travellers with secure document storage and real-time pass status validation.",
       features: [
@@ -71,7 +72,7 @@ const PORTFOLIO_DATA = {
       id: "myrc",
       title: "My Registered Agent (MyRC)",
       category: "Business & Compliance",
-      iconImg: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/05/92/7d/05927d3b-e01e-c2f8-bf78-8319ad080a2b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      iconImg: "assets/apps/myrc.svg",
       color: "#10b981",
       description: "Corporate compliance monitoring mobile suite enabling business owners to manage registered agent notices, track filing deadlines, and view corporate documents.",
       features: [
@@ -88,7 +89,7 @@ const PORTFOLIO_DATA = {
       id: "missio",
       title: "Missio",
       category: "Productivity & Collaboration",
-      iconImg: "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8b/65/59/8b6559d3-6e3e-3f5f-9e7b-c3e031a54b39/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      iconImg: "assets/apps/missio.svg",
       color: "#8b5cf6",
       description: "Mission tracking & team productivity application designed for field teams and non-profits to record activities, assign goals, and collaborate seamlessly.",
       features: [
@@ -105,7 +106,7 @@ const PORTFOLIO_DATA = {
       id: "claudia",
       title: "Claudia Dean World",
       category: "Health & Fitness",
-      iconImg: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/14/47/9b1447e5-137a-a562-d704-6dff3d5dd0fa/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      iconImg: "assets/apps/claudia.svg",
       color: "#f43f5e",
       description: "Premier ballet training mobile app featuring 400+ guided exercises, turns, flexibility training, jump routines, video courses, and community challenges.",
       features: [
@@ -122,7 +123,7 @@ const PORTFOLIO_DATA = {
       id: "skoolfame",
       title: "Skoolfame",
       category: "Education & Social",
-      iconImg: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/38/d1/8f38d10f-b534-0480-abc4-c2b0e22c1f12/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      iconImg: "assets/apps/skoolfame.svg",
       color: "#06b6d4",
       description: "A vibrant social networking platform for schools and students featuring event discovery, self-nominations, real-time chat messaging, and media sharing.",
       features: [
