@@ -116,7 +116,7 @@ const PORTFOLIO_DATA = {
         "In-app subscriptions & exclusive dancer community content"
       ],
       tech: ["React Native", "Redux Toolkit", "Video Player", "In-App Purchases", "REST APIs"],
-      playStore: "https://play.google.com/store/apps/details?id=com.appetiser.claudiadeanworld&hl=en_IN",
+      playStore: "https://play.google.com/store/search?q=claudia+dean+world&c=apps&hl=en_IN",
       appStore: "https://apps.apple.com/in/app/claudia-dean-world/id6443443761"
     },
     {
