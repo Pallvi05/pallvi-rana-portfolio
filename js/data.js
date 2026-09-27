@@ -66,7 +66,7 @@ const PORTFOLIO_DATA = {
       ],
       tech: ["React Native", "TypeScript", "Context API", "Biometrics", "REST APIs"],
       playStore: "https://play.google.com/store/apps/details?id=com.application.Myborderpass&hl=en",
-      appStore: null
+      appStore: "https://apps.apple.com/in/app/myborderpass/id6503904291"
     },
     {
       id: "myrc",
