@@ -17,7 +17,14 @@
   --accent-pink: #ec4899; /* Cyber Pink */
   --accent-green: #10b981; /* Emerald */
   --accent-cyan: #06b6d4; /* Cyan */
-  
+
+  /* Contact section specific vars */
+  --contact-bg: linear-gradient(135deg, rgba(30, 27, 75, 0.8), rgba(15, 23, 42, 0.95));
+  --contact-title: #f3f4f6;
+  --contact-meta: #9ca3af;
+  --contact-kicker: #06b6d4;
+  --contact-mail: #6366f1;
+
   --radius: 16px;
   --radius-sm: 8px;
   --transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -37,6 +44,13 @@
   
   --accent: #4f46e5;
   --accent-glow: rgba(79, 70, 229, 0.15);
+
+  /* Contact section light mode vars */
+  --contact-bg: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+  --contact-title: #0f172a;
+  --contact-meta: #475569;
+  --contact-kicker: #4f46e5;
+  --contact-mail: #4f46e5;
 }
 
 /* Reset & Base Styles */
@@ -898,18 +912,19 @@ body {
 }
 
 .contact-box {
-  background: linear-gradient(135deg, rgba(30, 27, 75, 0.6), rgba(15, 23, 42, 0.8));
+  background: var(--contact-bg);
   border: 1px solid var(--paper-border);
   border-radius: 28px;
   padding: clamp(32px, 6vw, 64px);
   text-align: center;
   backdrop-filter: blur(20px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  transition: var(--transition);
 }
 
 .contact-kicker {
   font-size: 16px;
-  color: var(--accent-cyan);
+  color: var(--contact-kicker);
   font-weight: 600;
   margin-bottom: 12px;
 }
@@ -922,6 +937,7 @@ body {
   margin-bottom: 32px;
   max-width: 20ch;
   margin-inline: auto;
+  color: var(--contact-title);
 }
 
 .contact-title em {
@@ -942,14 +958,16 @@ body {
 .mail-link {
   font-size: clamp(22px, 4vw, 36px);
   font-weight: 700;
-  color: var(--ink);
+  color: var(--contact-mail);
   text-decoration: none;
   letter-spacing: -0.02em;
   transition: var(--transition);
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 2px;
 }
 
 .mail-link:hover {
-  color: var(--accent);
+  opacity: 0.85;
 }
 
 .copy-btn {
@@ -974,9 +992,13 @@ body {
   gap: 32px;
   flex-wrap: wrap;
   font-size: 14.5px;
-  color: var(--muted);
+  color: var(--contact-meta);
   border-top: 1px solid var(--line);
   padding-top: 24px;
+}
+
+.contact-meta strong {
+  color: var(--contact-title);
 }
 
 .meta-item {

@@ -21,7 +21,7 @@ const PORTFOLIO_DATA = {
       id: "rooflink",
       title: "RoofLink",
       category: "Construction & Business",
-      iconImg: "assets/apps/rooflink.svg",
+      iconImg: "assets/apps/rooflink.jpg",
       color: "#f59e0b",
       description: "Roofing management & estimation mobile solution designed for contractors to streamline project quotes, inspection workflows, client communication, and site photos.",
       features: [
@@ -38,7 +38,7 @@ const PORTFOLIO_DATA = {
       id: "reekolect",
       title: "Reekolect",
       category: "Social & Memories",
-      iconImg: "assets/apps/reekolect.svg",
+      iconImg: "assets/apps/reekolect.jpg",
       color: "#ec4899",
       description: "A private memory vault app allowing families to securely store, organize, and share photos, build interactive family trees, and preserve cherished moments.",
       features: [
@@ -55,7 +55,7 @@ const PORTFOLIO_DATA = {
       id: "myborderpass",
       title: "My Border Pass",
       category: "Travel & Security",
-      iconImg: "assets/apps/myborderpass.svg",
+      iconImg: "assets/apps/myborderpass.jpg",
       color: "#3b82f6",
       description: "Digital travel verification and border entry pass management app providing travellers with secure document storage and real-time pass status validation.",
       features: [
@@ -72,7 +72,7 @@ const PORTFOLIO_DATA = {
       id: "myrc",
       title: "My Registered Agent (MyRC)",
       category: "Business & Compliance",
-      iconImg: "assets/apps/myrc.svg",
+      iconImg: "assets/apps/myrc.jpg",
       color: "#10b981",
       description: "Corporate compliance monitoring mobile suite enabling business owners to manage registered agent notices, track filing deadlines, and view corporate documents.",
       features: [
@@ -89,7 +89,7 @@ const PORTFOLIO_DATA = {
       id: "missio",
       title: "Missio",
       category: "Productivity & Collaboration",
-      iconImg: "assets/apps/missio.svg",
+      iconImg: "assets/apps/missio.jpg",
       color: "#8b5cf6",
       description: "Mission tracking & team productivity application designed for field teams and non-profits to record activities, assign goals, and collaborate seamlessly.",
       features: [
@@ -106,7 +106,7 @@ const PORTFOLIO_DATA = {
       id: "claudia",
       title: "Claudia Dean World",
       category: "Health & Fitness",
-      iconImg: "assets/apps/claudia.svg",
+      iconImg: "assets/apps/claudia.jpg",
       color: "#f43f5e",
       description: "Premier ballet training mobile app featuring 400+ guided exercises, turns, flexibility training, jump routines, video courses, and community challenges.",
       features: [
@@ -123,7 +123,7 @@ const PORTFOLIO_DATA = {
       id: "skoolfame",
       title: "Skoolfame",
       category: "Education & Social",
-      iconImg: "assets/apps/skoolfame.svg",
+      iconImg: "assets/apps/skoolfame.jpg",
       color: "#06b6d4",
       description: "A vibrant social networking platform for schools and students featuring event discovery, self-nominations, real-time chat messaging, and media sharing.",
       features: [
